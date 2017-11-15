@@ -34,5 +34,10 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return Dismiss()
     }
+    
+    func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return secondViewController.percentDrivenTransition
+    }
 }
+
 
