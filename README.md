@@ -1,1 +1,4 @@
 # SwiftTransitionDemo
+### 11月7日练习
+* 自定义跳转动画，创建跳转和返回的两个动画类实现UIViewControllerAnimatedTransitioning协议，具体的跳转方法写在animateTransition()方法里，在fromView中实现UIViewControllerTransitioningDelegate协议
+* Demo中自定义了一个类似于push的跳转动画效果
